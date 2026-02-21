@@ -1,4 +1,4 @@
-#!/Users/sohailali/Desktop/Projects/autobackup/venv/bin/python
+#!/Users/sohailali/Desktop/Projects/autobackup/venv/bin/python3.12
 import sys
 from autobackup_pkg.cli import main
 if __name__ == '__main__':

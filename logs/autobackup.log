@@ -1,2 +1,11 @@
 2026-02-21 22:30:29,135 | INFO | Verifying /Users/sohailali/Desktop/Projects/autobackup/backups/backup_test_data_2026-02-21_22-30-29.tar.gz
 2026-02-21 22:30:29,137 | INFO | Backup completed successfully: /Users/sohailali/Desktop/Projects/autobackup/backups/backup_test_data_2026-02-21_22-30-29.tar.gz
+2026-02-21 23:10:34,665 | INFO | Verifying /Users/sohailali/Desktop/Projects/autobackup/backups/backup_test_data_2026-02-21_23-10-34.tar.gz
+2026-02-21 23:10:34,667 | INFO | Backup completed successfully: /Users/sohailali/Desktop/Projects/autobackup/backups/backup_test_data_2026-02-21_23-10-34.tar.gz
+2026-02-21 23:10:55,091 | ERROR | Error running restore: /Users/sohailali/Desktop/Projects/autobackup/backups/backup_file.tar.gz
+Traceback (most recent call last):
+  File "/Users/sohailali/Desktop/Projects/autobackup/src/autobackup_pkg/cli.py", line 39, in main
+    restore_command(args)
+  File "/Users/sohailali/Desktop/Projects/autobackup/src/autobackup_pkg/commands/restore.py", line 16, in restore_command
+    raise FileNotFoundError(file_path)
+FileNotFoundError: /Users/sohailali/Desktop/Projects/autobackup/backups/backup_file.tar.gz
