@@ -1,0 +1,16 @@
+2026-02-21 22:12:10,104 | ERROR | Error running backup: 'list' object has no attribute 'source'
+Traceback (most recent call last):
+  File "/Users/sohailali/Desktop/Projects/autobackup/src/autobackup_pkg/cli.py", line 36, in main
+    backup_command(["--source", args.source, "--dest", args.dest, "--verify"] if args.verify else ["--source", args.source, "--dest", args.dest])
+  File "/Users/sohailali/Desktop/Projects/autobackup/src/autobackup_pkg/backup.py", line 29, in backup_command
+    source = Path(args.source).expanduser().resolve()
+                  ^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'source'
+2026-02-21 22:14:40,833 | ERROR | Error running backup: 'list' object has no attribute 'source'
+Traceback (most recent call last):
+  File "/Users/sohailali/Desktop/Projects/autobackup/src/autobackup_pkg/cli.py", line 36, in main
+    backup_command(["--source", args.source, "--dest", args.dest, "--verify"] if args.verify else ["--source", args.source, "--dest", args.dest])
+  File "/Users/sohailali/Desktop/Projects/autobackup/src/autobackup_pkg/backup.py", line 38, in backup_command
+    source = Path(args.source).expanduser().resolve()
+                  ^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'source'

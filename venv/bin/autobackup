@@ -1,0 +1,6 @@
+#!/Users/sohailali/Desktop/Projects/autobackup/venv/bin/python
+import sys
+from autobackup_pkg.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
