@@ -148,17 +148,8 @@ GitHub: https://github.com/alihassan648
 
 ---
 
-## ✅ After Updating README
-
-Run:
-
-```bash
-git add README.md
-git commit -m "Update README documentation"
-git push
 
 
-⸻
 
 
 
